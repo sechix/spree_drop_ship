@@ -27,7 +27,7 @@ Spree::Shipment.class_eval do
 
   private
 
-  durably_decorate :after_ship, mode: 'soft', sha: 'd0665a43fd8805f9fd1958b988e35f12f4cee376' do
+  durably_decorate :after_ship, mode: 'soft', sha: '5401c76850108aba74c87a87ff634379bdc844ce' do
     original_after_ship
 
     if supplier.present?
