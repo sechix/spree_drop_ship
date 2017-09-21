@@ -22,6 +22,6 @@ Spree::Order.class_eval do
       end
     end
   end
-  alias_method_chain :finalize!, :drop_ship
+  alias_method :finalize!, :drop_ship
 
 end
